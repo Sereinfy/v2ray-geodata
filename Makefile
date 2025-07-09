@@ -38,7 +38,7 @@ define Package/v2ray-geosite
 endef
 
 GEOIP_URL:=https://github.com/Loyalsoldier/geoip/releases/latest/download/geoip-only-cn-private.dat
-GEOSITE_URL:=https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat
+GEOSITE_URL:=https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo/geosite-lite.dat
 
 define Build/Compile
 	( \
